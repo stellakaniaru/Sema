@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.sema.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/numbers"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:text="@string/numbers"
+            android:background="@color/numbers"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <TextView
+            android:id="@+id/family"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:text="@string/family"
+            android:background="@color/family"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <TextView
+            android:id="@+id/color"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:text="@string/colors"
+            android:background="@color/colors"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <TextView
+            android:id="@+id/phrase"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:text="@string/phrase"
+            android:background="@color/phrase"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

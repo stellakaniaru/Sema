@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sema</string>
+    <string name="numbers">Numbers</string>
+    <string name="family">Family</string>
+    <string name="colors">Colors</string>
+    <string name="phrase">Phrases</string>
+
+</resources>
